@@ -1,6 +1,13 @@
 <!doctype html>
 <html lang="en">
 <head>
+  <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MVNV5S2H');</script>
+<!-- End Google Tag Manager -->
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Four-Part Shopping Site</title>
@@ -15,6 +22,10 @@
     }
     *{box-sizing:border-box}
     body{margin:0;background:var(--bg);color:#0f172a}
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MVNV5S2H"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 
     /* Layout: 4 main parts (Header, Sidebar, Main, Right panel / Cart) */
     .app{display:grid;grid-template-columns:240px 1fr 360px;grid-template-rows:72px 1fr 80px;gap:20px;min-height:100vh;padding:20px}
